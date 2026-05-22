@@ -36,4 +36,6 @@ NOTE: The AWS local part will be available in the awslocal branch soon.
 
 6. Create a dynamo db table with the name `payroll` and primary key `PK` (string). Find the table I create at `infrastructur/create_table.sh`
 
-7. 
+7. Check that the table is created `aws dynamodb list-tables`
+   
+8. 

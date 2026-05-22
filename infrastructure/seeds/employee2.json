@@ -1,0 +1,10 @@
+{
+    "PK": {"S": "COMPANY#1"},
+    "SK": {"S": "EMPLOYEE#2"},  
+    "name": {"S": "Bob Smith"},
+    "country": {"S": "USA"},
+    "position": {"S": "Product Manager"},
+    "phone": {"S": "+1-555-5678"},
+    "email": {"S": "employee2@gmail.com"},
+    "location": {"S": "San Francisco"}
+    }

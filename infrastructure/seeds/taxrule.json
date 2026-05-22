@@ -1,0 +1,7 @@
+{
+    "PK": {"S": "COUNTRY#USA"},
+    "SK": {"S": "TAXRULE#1#2025-05-12"},
+    "percentage": {"N": "20"},
+    "effectiveDate": {"S": "2024-01-01"},
+    "lastUpdated": {"S": "2024-01-01T00:00:00Z"}
+}

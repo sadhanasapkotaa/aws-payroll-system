@@ -1,0 +1,6 @@
+{
+    "PK": {"S": "COMPANY#1"},
+    "SK": {"S": "COMPANY#1"},
+    "name": {"S": "Alice Johnson"},
+    "country": {"S": "USA"}
+}

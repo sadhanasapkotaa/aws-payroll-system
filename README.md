@@ -34,8 +34,8 @@ NOTE: The AWS local part will be available in the awslocal branch soon.
     "Arn": "arn:aws:iam::.....:user/payroll-user"
    }
 
-6. Create a dynamo db table with the name `payroll` and primary key `PK` (string). Find the table I create at `infrastructur/create_table.sh`
+6. Create a dynamo db table with the name `payroll` and primary key `PK` (string) and sort key `SK` (string) as attributes. Find the table I created at `infrastructur/create_table.sh`, It has a production proof, idempotent, table creation command. 
 
-7. Check that the table is created `aws dynamodb list-tables`
+7. Check that the table is created `aws dynamodb list-tables` and you should see your tablw with attributes
    
 8. 
